@@ -1,0 +1,62 @@
+.list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.list-image {
+  width: 160px;
+  height: 100px;
+}
+
+.name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.genre {
+  color: #3b82f6;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.image-name-genre-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.name-genre-container {
+  margin-left: 20px;
+}
+
+.duration-delete-icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  margin-left: 40px;
+}
+
+.icon {
+  color: #ffffff;
+  height: 65px;
+  font-weight: 800;
+}
+
+.duration {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
